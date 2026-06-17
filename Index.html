@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="kalkulator">
+    <input type="text" id="layar" disabled>
+    <div class="tombol">
+        <button onclick="tambahAngka('1')">1</button>
+        <button onclick="tambahAngka('2')">2</button>
+        <button onclick="tambahAngka('3')">3</button>
+        <button onclick="operasi('+')">+</button>
+        <button onclick="tambahAngka('4')">4</button>
+        <button onclick="tambahAngka('5')">5</button>
+        <button onclick="tambahAngka('6')">6</button>
+        <button onclick="operasi('-')">-</button>
+        <button onclick="hitung()">=</button>
+        <button onclick="bersihkan()">C</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
